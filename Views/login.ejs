@@ -1,0 +1,18 @@
+<%- include("Layout/header")%>
+<main>
+  <h1>Login</h1>
+  <form action="/login" method="post">
+    <div class="form-field">
+      <label for="username" class="input-label">Username:</label>
+      <input type="text" id="username" name="username" required />
+    </div>
+    <br />
+    <div class="form-field">
+      <label for="password" class="input-label">Password:</label>
+      <input type="password" id="password" name="password" required />
+    </div>
+    <br />
+    <button type="submit">Login</button>
+  </form>
+</main>
+<%- include("Layout/footer")%>
