@@ -1,6 +1,6 @@
 # Authentication with Passport Local Strategy
 
-This project is based on the authentication system with Passport Local Strategy using node express mongodb & ejs. 
+This project is based on the authentication system with Passport Local Strategy using Node Express Mongodb & EJS. 
 
 ## Command lines for packages
 
